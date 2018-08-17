@@ -158,12 +158,7 @@
 			<version>2.6</version>
 		</dependency>
 		
-		<!-- oracle驱动 -->
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>6.0</version>
-		</dependency>
+
 		
 		<!-- druid数据源驱动 -->
 		<dependency>
@@ -171,7 +166,21 @@
 		   <artifactId>druid-spring-boot-starter</artifactId>
 		   <version>1.1.10</version>
 		</dependency>
-		
+
+		<!--swagger，可以用来生成RESTFUL接口的在线文档-->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.2.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+
+
 	</dependencies>
 	
 	<repositories>
